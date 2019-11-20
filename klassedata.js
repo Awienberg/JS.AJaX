@@ -14,7 +14,7 @@ let txtHandler = function(e) {
     let obj = JSON.parse(e.target.responseText);    // objectify response
                                                     // and use it
 
-    //loop that prints the data from example2.json into table in HTML
+    //loop that prints the data from example3.json into table in HTML
     for (let i = 0; i < obj.length; i++) {
     let tr = document.createElement("tr");
     let td1 = document.createElement("td");
